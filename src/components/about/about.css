@@ -1,0 +1,48 @@
+#about {
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+}
+
+.about_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: 950px;
+    margin: 25px auto;
+}
+
+.about_user {
+    width: 813px;
+    height: 996px;
+    background-image: url('./imgs/About\ Me.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about_text_cont {
+    width: 821px;
+    height: 403px;
+}
+
+.about_text_cont h2 {
+    font-size: 21px;
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+    color: #282938;
+}
+
+.about_text_cont h1 {
+    font-size: 55px;
+    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+    color: #282938;
+}
+
+.about_text_cont p {
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    color: #282938;
+}

@@ -1,0 +1,180 @@
+#contact {
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-bottom: 155px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.contact_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: auto;
+}
+
+.contact_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 198px;
+    margin: 55px auto;
+}
+
+.contact_text h3 {
+    font-size: 21px;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    color: #282938;
+}
+
+.contact_text h1 {
+    font-size: 55px;
+    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+    color: #282938;
+}
+
+.contact_text p {
+    font-size: 21px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    color: #282938;
+}
+
+.contact_form form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin: 25px auto;
+}
+
+.user_form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+}
+
+.user_form  div {
+    width: 496px;
+    height: 64px;
+    display: flex;
+    flex-direction: column;
+}
+
+.user_form  div label {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    color: #282938;
+}
+
+.user_form  div input {
+    width: 100%;
+    height: 64px;
+    padding: 15px;
+    border: 1px solid #5E3BEE;
+    border-radius: 8px;
+    outline: #5E3BEE;
+    font-size: 19px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    color: #282938;
+}
+
+.select_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    margin: 35px auto;
+}
+
+.select_form div {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.select_form div label {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    color: #282938;
+}
+
+.select_form div select {
+    width: 100%;
+    height: 64px;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #5E3BEE;
+    outline: #5E3BEE;
+    font-size: 19px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    color: #282938;
+}
+
+.select_form div textarea {
+    width: 100%;
+    height: 240px;
+    padding: 15px;
+    border: 1px solid #5E3BEE;
+    border-radius: 8px;
+    outline: #5E3BEE;
+    font-size: 19px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    color: #282938;
+}
+
+.checkded {
+    width: 100%;
+    height: 50px;
+    margin-top: -35px;
+}
+
+.checkded  span {
+    margin-left: 8px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    color: #282938;
+}
+
+.form_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 72px;
+}
+
+.form_btn button {
+    width: 170px;
+    height: 69px;
+    border: none;
+    background-color: #5E3BEE;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    color: white;
+}

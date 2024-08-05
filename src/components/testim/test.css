@@ -1,0 +1,133 @@
+#test {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5FCFF;
+}
+
+.testim_container {
+    width: 90%;
+    height: auto;
+}
+
+.testim_title {
+    width: 100%;
+    height: 95px;
+}
+
+.testim_title h3 {
+    font-size: 21px;
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+    color: #282938;
+}
+
+.testim_title h1 {
+    font-size: 55px;
+    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+    color: #282938;
+}
+
+.testim_cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 550px;
+    margin: 25px auto;
+}
+
+.testim_card {
+    width: 554px;
+    height: 366px;
+    padding: 35px;
+    border: 1px solid #006B6A;
+    border-radius: 8px;
+}
+
+.testim_icon {
+    width: 154px;
+    height: 25px;
+    background-image: url('./imgs/Stars.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.testim_card_text {
+    width: 469px;
+    height: 96px;
+    margin-top: 35px;
+}
+
+.testim_card_text p {
+    font-size: 21px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    color: #282938;
+}
+
+.testim_card_user {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 102px;
+    margin-top: 45px;
+    cursor: pointer;
+}
+
+.testim_card_user_icon1 {
+    width: 74px;
+    height: 74px;
+    background-image: url('./imgs/user1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.testim_card_user_icon2 {
+    width: 74px;
+    height: 74px;
+    background-image: url('./imgs/user2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.testim_card_user_icon3 {
+    width: 74px;
+    height: 74px;
+    background-image: url('./imgs/user3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.testim_card_user_text {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    left: 19%;
+    bottom: 6%;
+    width: 142px;
+    height: 64px;
+}
+
+.testim_card_user_text h1 {
+    font-size: 21px;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    color: #282938;
+}
+
+.testim_card_user_text p {
+    margin-top: -4px;
+    font-size: 21px;
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+    color: #1C1E53;
+}
