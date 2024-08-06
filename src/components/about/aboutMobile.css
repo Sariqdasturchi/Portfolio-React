@@ -1,0 +1,27 @@
+@media screen and (width < 480px) {
+    .about_container {
+        flex-direction: column;
+    }
+
+    .about_user {
+        width: 418px;
+        height: 556px;
+    }
+
+    .about_text_cont {
+        width: 90%;
+        height: 483px;
+    }
+
+    .about_text_cont h2 {
+        font-size: 18px;
+    }
+
+    .about_text_cont h1 {
+        font-size: 36px;
+    }
+
+    .about_text_cont p {
+        font-size: 17px;
+    }
+}

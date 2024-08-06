@@ -1,5 +1,5 @@
 import './header.css';
-
+import './headerMobile.css';
 
 function HeaderComp() {
     return(

@@ -1,4 +1,5 @@
 import './footer.css';
+import './footerMobile.css';
 import instagram from './imgs/Instagram.png';
 import twitter from './imgs/Twitter.png';
 import linkedin from './imgs/LinkedIn.png';

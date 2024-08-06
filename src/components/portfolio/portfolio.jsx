@@ -1,6 +1,8 @@
 import './port.css';
+import './portMobile.css';
 import site from './imgs/site.png';
 import vector from './imgs/Vector.png'
+
 function PortfolioComp() {
     return (
         <>

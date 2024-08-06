@@ -1,5 +1,5 @@
-
 import './home.css'
+import './homeMobile.css'
 
 function HomeComp() {
     return (

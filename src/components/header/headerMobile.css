@@ -1,0 +1,35 @@
+@media screen and (width < 480px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    header {
+        width: 100%;
+        height: 85px;
+        position: fixed;
+        overflow-x: hidden;
+    }
+
+    header nav {
+        width: 90%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    nav ul {
+        width: 0;
+        display: none;
+    }
+
+    nav .navBtn button {
+        width: 100px;
+        height: 49px;
+        font-size: 16px;
+    }
+
+    nav .logo a div {
+        /* border: 1px solid red; */
+    }
+}

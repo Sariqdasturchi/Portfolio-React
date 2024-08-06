@@ -1,5 +1,5 @@
 import './about.css';
-
+import './aboutMobile.css';
 
 function AboutComp() {
     return (

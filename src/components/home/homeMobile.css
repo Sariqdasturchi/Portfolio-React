@@ -1,0 +1,84 @@
+@media screen and (width < 480px) {
+    #home {
+        width: 100%;
+        height: auto;
+    }
+
+    .home_container {
+        flex-direction: column-reverse;
+    }
+
+    .home_user_img {
+        width: 417px;
+        height: 329px;
+        margin-top: 45px;
+    }
+
+    .home_text {
+        width: 390px;
+        height: 526px;
+        padding: 25px;
+    }
+
+    .home_text h4 {
+        font-size: 18px;
+    }
+
+    .home_text h3 {
+        font-size: 36px;
+    }
+
+    .home_text p {
+        font-size: 18px;
+        text-align: justify;
+    }
+
+    .home_text button {
+        width: 140px;
+        height: 52px;
+        font-size: 16px;
+    }
+
+    /* ========== SKILLS ========== */
+    #skills {
+        width: 100%;
+        height: auto;
+    }
+
+    .skills_container {
+        width: 90%;
+        height: auto;
+    }
+
+    .skills_container .empty {
+        height: 25px;
+    }
+
+    .skills_text h4 {
+        font-size: 18px;
+    }
+
+    .skills_text h1 {
+        font-size: 36px;
+    }
+
+    .skills_cards {
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 15px;
+    }
+
+    .skills_card {
+        width: 370px;
+    }
+
+    .card_title h1 {
+        font-size: 24px;
+    }
+
+    .card_text p {
+        font-size: 18px;
+    }
+}

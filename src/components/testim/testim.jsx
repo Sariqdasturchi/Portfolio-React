@@ -1,5 +1,5 @@
 import './test.css';
-
+import './testMobile.css';
 
 function Testim() {
     return (

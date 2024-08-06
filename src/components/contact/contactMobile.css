@@ -1,0 +1,98 @@
+@media screen and (width < 480px) {
+    #contact {
+        padding-top: 55px;
+    }
+
+    .contact_container {
+        /* border: 1px solid red; */
+    }
+
+    .contact_text {
+        width: 100%;
+    }
+
+    .contact_text h3 {
+        font-size: 18px;
+    }
+
+    .contact_text h1  {
+        font-size: 36px;
+    }
+
+    .contact_text p {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .contact_form form {
+        width: 100%;
+        /* border: 1px solid red; */
+    }
+
+    .user_form {
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 25px;
+    }
+
+
+    .user_form  div  {
+        position: relative;
+        width: 404px;
+        height: 85px;
+        align-items: center;
+        /* border: 1px solid red; */
+    }
+
+    .user_form  div label {
+        position: absolute;
+        left: 20px;
+    }
+
+    .user_form  div input {
+        width: 90%;
+        position: absolute;
+        top: 30px;
+    }
+
+    .select_form {
+        flex-direction: column;
+    }
+
+    .select_form {
+        height: 400px;
+        margin-top: 255px;
+    }
+
+    .select_form div {
+        position: relative;
+        width: 404px;
+        align-items: center;
+    }
+
+    .select_form div label {
+        position: absolute;
+        left: 20px;
+        top: -30px;
+    }
+
+    .select_form div select  {
+        width: 90%;
+        margin-bottom: 25px;
+    }
+
+    .select_form div textarea {
+        width: 90%;
+        
+    }
+
+    .checkded {
+        width: 90%;
+    }
+
+    .form_btn button {
+        width: 140px;
+        height: 54px;
+        font-size: 20px;
+    }
+}
